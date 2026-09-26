@@ -1,18 +1,18 @@
 {
     "id": 105,
     "name": "Swing Land",
-    "author": "LevelUploader",
-    "creators": ["nilZeroGMD"],
+    "author": "nilZeroGMD",
+    "creators": "nilZeroGMD",
     "verifier": "nilZeroGMD",
     "verification": "None",
-    "percentToQualify": 50,
+    "percentToQualify": "50%",
     "password": "Not Copyable",
     "records": [
         {
             "user": "Davidshaft",
             "link": "None",
-            "percent": 100,
-            "hz": 240
+            "percent": "100",
+            "hz": "240"
         }
     ]
 }
