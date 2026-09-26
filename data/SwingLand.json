@@ -2,7 +2,7 @@
     "id": 105,
     "name": "Swing Land",
     "author": "nilZeroGMD",
-    "creators": "nilZeroGMD",
+    "creators": ["nilZeroGMD"]
     "verifier": "nilZeroGMD",
     "verification": "None",
     "percentToQualify": 50,
