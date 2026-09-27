@@ -1,26 +1,26 @@
 [
     {
-        "role": "images/crown.svg",
+        "role": "crown",
         "name": "Davidshaft (DDL Owner)",
         "link": "https://www.youtube.com/channel/UCr2sml5eSCwnTLRXZaEDXvA"
     },
     {
-        "role": "images/crown.svg",
+        "role": "crown",
         "name": "Dew (GDPS Owner)",
         "link": "https://www.youtube.com/channel/UChRp5NA8dbHNnUIWPoCj7Og"
     },
     {
-        "role": "images/helper.svg",
+        "role": "helper",
         "name": "List Helper",
         "link": "https://www.youtube.com/@Prometheus_Alt"
     },
     {
-        "role": "images/trial.svg",
+        "role": "trial",
         "name": "Trial List Helper",
         "link": "https://www.youtube.com/@Prometheus_Alt"
     },
     {
-        "role": "images/dev.svg",
+        "role": "dev",
         "name": "List Coder",
         "link": "https://www.youtube.com/@Prometheus_Alt"
     }
