@@ -127,9 +127,9 @@
     text-decoration: underline;
 }
 .editors a.link {
-    color: #008f6b;
+    color: #0099ff;
 }
 
 .editors a.link:hover {
-    color: #008f6b;
+    color: #00ccff;
 }
