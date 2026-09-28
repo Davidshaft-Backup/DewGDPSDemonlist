@@ -10,18 +10,23 @@
         "link": "https://www.youtube.com/channel/UChRp5NA8dbHNnUIWPoCj7Og"
     },
     {
-        "role": "helper",
-        "name": "List Helper",
-        "link": "https://www.youtube.com/@Prometheus_Alt"
+        "image": "user-gear.svg",
+        "name": "Rick Astley (Developer)",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    },
+     { 
+        "image": "user-lock.svg",
+        "name": "Rick Astley (Developer)",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+     },
+    {
+        "image": "code.svg",
+        "name": "Davidshaft (Developer)",
+        "link": "https://www.youtube.com/channel/UCr2sml5eSCwnTLRXZaEDXvA"
     },
     {
-        "role": "trial",
-        "name": "Trial List Helper",
-        "link": "https://www.youtube.com/@Prometheus_Alt"
-    },
-    {
-        "role": "dev",
-        "name": "List Coder",
+        "image": "code.svg",
+        "name": "Prometheus (Creator Of Layout)",
         "link": "https://www.youtube.com/@Prometheus_Alt"
     }
 ]
