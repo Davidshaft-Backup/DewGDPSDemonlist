@@ -64,7 +64,11 @@ export default {
                                 <a :href="record.link" target="_blank" class="type-label-lg">{{ record.user }}</a>
                             </td>
                             <td class="mobile">
-                                <img v-if="record.mobile" :src="\`/assets/phone-landscape\${store.dark ? '-dark' : ''}.svg\`" alt="Mobile">
+                               <img
+    v-if="record.mobile"
+    :src="'/DewGDPSDemonlist/assets/phone-landscape' + (store.dark ? '-dark' : '') + '.svg'"
+    alt="Mobile"
+>
                             </td>
                             <td class="hz">
                                 <p>{{ record.hz }}Hz</p>
@@ -89,7 +93,7 @@ export default {
     <ol class="editors">
         <li v-for="editor in editors">        
 <img
-    :src="'/assets/' + editor.image.replace('.svg', (store.dark ? '-dark' : '') + '.svg')"
+    :src="'/DewGDPSDemonlist/assets/' + editor.image.replace('.svg', (store.dark ? '-dark' : '') + '.svg')"
     :alt="editor.name"
     width="24"
     height="24"
