@@ -126,3 +126,10 @@
 .page-list .meta .editors li a:hover {
     text-decoration: underline;
 }
+.editors a.link {
+    color: #008f6b;
+}
+
+.editors a.link:hover {
+    color: #008f6b;
+}
