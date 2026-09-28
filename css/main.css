@@ -3,7 +3,7 @@
     --color-on-background: black;
     --color-background-hover: #eee;
     --color-on-background-hover: black;
-    --color-primary: #0066ff;
+    --color-primary: #01ffbb;
     --color-on-primary: white;
     --color-error: #de0000;
     --color-on-error: white;
@@ -50,7 +50,7 @@ header {
     display: flex;
     padding-inline: calc(25vw - 10rem);
     height: 4rem;
-    background-color: var(--color-primary);
+    background-color: #01ffbb;
     color: var(--color-on-primary);
 }
 @media screen and (min-width: 1366px) {
@@ -93,4 +93,7 @@ input[type="checkbox"] {
     width: 1.25rem;
     cursor: pointer;
     margin: 0;
+}
+header.dark {
+    background-color: #008f6b;
 }
