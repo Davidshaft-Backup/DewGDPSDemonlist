@@ -87,14 +87,14 @@ export default {
                     <template v-if="editors">
     <h3>List Editors</h3>
     <ol class="editors">
-        <li v-for="editor in editors">
-            <img
-                :src="'/assets/' + editor.image"
-                :alt="editor.name"
-                width="24"
-                height="24"
-                style="object-fit: contain;"
-            >
+        <li v-for="editor in editors">        
+<img
+    :src="'/assets/' + editor.image.replace('.svg', (store.dark ? '-dark' : '') + '.svg')"
+    :alt="editor.name"
+    width="24"
+    height="24"
+    style="object-fit: contain;"
+>
             <a
                 v-if="editor.link"
                 class="type-label-lg link"
@@ -144,20 +144,24 @@ export default {
     return this.list[this.selected]?.[0] ?? null;
 },
         video() {
-            if (!this.level.showcase) {
-                return embed(this.level.verification);
-            }
+    if (!this.level) {
+        return "";
+    }
 
-            return embed(
-                this.toggledShowcase
-                    ? this.level.showcase
-                    : this.level.verification
-            );
-        },
+    if (!this.level.showcase) {
+        return embed(this.level.verification);
+    }
+
+    return embed(
+        this.toggledShowcase
+            ? this.level.showcase
+            : this.level.verification
+    );
+},
     },
     async mounted() {
         // Hide loading spinner
-        this.list = await fetchList();
+        this.list = (await fetchList()) ?? [];
         this.editors = await fetchEditors();
 
         // Error handling
