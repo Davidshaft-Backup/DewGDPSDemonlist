@@ -111,25 +111,25 @@ export default {
 </template>
                     <h3>Submission Requirements</h3>
                     <p>
-                        Achieved the record without using hacks (however, FPS bypass is allowed, up to 360fps)
+                        1. No Hacks Allowed (Except for FPS Bypass, but only up to 360 FPS)
                     </p>
                     <p>
-                        Achieved the record on the level that is listed on the site - please check the level ID before you submit a record
+                        2. Must be a Rated Level on the GDPS
                     </p>
                     <p>
-                        Have either source audio or clicks/taps in the video. Edited audio only does not count
+                        3. Clicks must be heard and sync with the video (Use a CPS Counter that flashes green to prove it easier)
                     </p>
                     <p>
-                        The recording must have a previous attempt and entire death animation shown before the completion, unless the completion is on the first attempt. Everyplay records are exempt from this
+                        4. The recording must show the previous attempt death, unless the completion is on the first attempt, then show Any Death with No edits (Like Replay the Level and instantly Die)
                     </p>
                     <p>
-                        The recording must also show the player hit the endwall, or the completion will be invalidated.
+                        5. The Recording Must show the player hit the End Wall or End Trigger
                     </p>
                     <p>
-                        Do not use secret routes or bug routes
+                        6. No Secret Ways (Swag Routes are allowed to a degree)
                     </p>
                     <p>
-                        Do not use easy modes, only a record of the unmodified level qualifies
+                        7. Must be the Original Version of the Level, no modifications. (Personal copies are ONLY allowed for startpos)
                     </p>
                 </div>
             </div>
