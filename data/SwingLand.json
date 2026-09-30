@@ -6,7 +6,7 @@
     "verifier": "nilZeroGMD",
     "verification": "https://youtu.be/uHHtLVvjqBQ",
     "percentToQualify": 50,
-    "enjoyment": "1.5/10",
+    "enjoyment": "1.25/10",
     "password": "Copyable",
     "records": [
         {
@@ -18,6 +18,12 @@
         {
             "user": "riotsreborn",
             "link": "https://www.youtube.com/watch?v=vSs01H2bswg",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Dew",
+            "link": "https://www.youtube.com/watch?v=S997T8lVQT8&t=670s",
             "percent": 100,
             "hz": 60
         }
